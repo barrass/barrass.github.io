@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="myPortfolioCSS.css">
+    <script src="myPortfolioJS.js"></script>
+</head>
+
+<title>My Portfolio - Adrian Felipe Barraza</title>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Adrian<span class="w3-hide-small">Felipe</span>Barraza</span>
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center"><b>ABOUT ME</b></h3>
+      <p class="w3-center"><em>"Knowledge is out for grasp, I can learn anything I want and if I can learn it, I can make things happen!"</em></p>
+      <p><b>Head of Marketing Operations & Branding and Fullstack Developer in the making, with practical experience in operational & channel marketing, corporate event's production, project management, branding strategy & tactical implementations (ATL & BTL) and strategic planning; devoted to improve my knowledge and implement new ways to do things every day.</b></p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p><b><i class="fa fa-user w3-margin-right"></i>Adrián Felipe Barraza</b></p><br>
+          <img src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjZAAAAJDE0YWE5YzMwLTI2NzgtNDQ1NC05NjJhLTAwZGIyMjBjYTViNw.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="250" height="167">
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>13+ years of working experience in different functions with responsibility for marketing, line of business management & strategic development, NPS, key accounts and events development, management and PR, among others, have taught me that I can learn and do anything I'm committed to!
+          </p>
+          <p>What you do & learn at the office could define the professional you could become, but also what you learn outside, your passions and all the things you do in yor personal life.</p>
+            <p>Want to know more about me? Some tips of what you might find:</p>
+            <p>Love the mountain and skiing so I've been improving it every winter season since I was 6 years old! You can see me every winter riding down the slopes of 'El Colorado-Farellones' at 90 km/hr.</p>
+            <p>You can also catch me every saturday training Australina Football, with my beloved Santiago Saints, always trying to improve my kicking and marking skills.</p>
+            <p>Music is also one of my passions and when the time comes, you can see me wearing a black T-Shirt at a Gig nearby, cheering, chanting and singing at the songs of my favourite Metal Bands!</p>
+          <p>Last but not least, spending quality time with my family is one of the things that I love most! Love my wife and Kids!
+          </p>
+        </div>
+      </div>
+      <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+      <p class="w3-wide"><i class="fa fa-television"></i>Operational & Brand Marketing</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-handshake-o"></i>Channel Marketing</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-cutlery"></i>Corporate Events</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-code"></i>JavaScript</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:41%">51%</div>
+      </div>
+         <p class="w3-wide"><i class="fa fa-laptop"></i>Bootstrap</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:33%">50%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-html5">HTML5 & </i><i class="fa fa-css3">CSS3</i></p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:30%">51%</div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">13+ years</span><br>
+        Working Experience
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+ years</span><br>
+        as Head of Marketing
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">9+ years</span><br>
+        as Business Development Manager & Product Manager in different companies.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">40+</span><br>
+        Succesful Events produced in the last 5 years.
+      </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO & INTERESTS</span>
+      </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+      <h3 class="w3-center">MY WORK</h3>
+      <p class="w3-center"><em>Here are some of my latest work, achievements & interests.<br> Click on the images to make them bigger</em></p><br>
+
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img src="/barrass.github.io/Imagenes/Captura%20de%20pantalla%202017-11-13%20a%20la(s)%2018.08.48.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tribute Page">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="https://codepen.io/barrass/full/dZogbE/" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My Profile">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+        </div>
+
+        <div class="w3-col m3">
+          <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+        </div>
+        <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+         <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">CONTACT ME</h3>
+      <p class="w3-center"><em>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to improve your kicking skills in Aussie Rules Football or how to take a great curve at high speed while Skiing, random questions about the Vikings and the meaning of life, or even if only for some nice tips about what to do here in beautiful Santiago... just feel free to drop me a line anytime.
+    I promise to reply A.S.A.P.
+          </em></p>
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <!-- Add Google Maps -->
+          <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+        </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Santiago, Chile<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +56 9 9325 2009<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: abarraza.l@gmail.com<br>
+          </div>
+          <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+</body>
+</html>
