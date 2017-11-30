@@ -3,7 +3,7 @@ function myMap() {
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map= new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
