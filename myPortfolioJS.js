@@ -41,3 +41,5 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD36BNrXXbqFF1rSRYQSF1bJ32HOVrbkRs&callback=myMap";
